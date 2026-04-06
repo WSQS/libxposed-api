@@ -1,7 +1,7 @@
 [versions]
 annotation = "1.9.1"
 kotlin = "2.3.10"
-lint = "32.0.1"
+lint = "31.12.2"
 agp = "9.0.1"
 
 [plugins]
