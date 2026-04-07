@@ -18,9 +18,9 @@ public class Example extends XposedModule {
         super(base, param);
     }
 
-    @Override
-    public void onPackageLoaded(@NonNull PackageLoadedParam param) {
-        super.onPackageLoaded(param);
-        this.log("onPackageLoaded" + getApplicationInfo().packageName);
-    }
+//    @Override
+//    public void onPackageLoaded(@NonNull PackageLoadedParam param) {
+//        super.onPackageLoaded(param);
+//        this.log("onPackageLoaded" + getApplicationInfo().packageName);
+//    }
 }

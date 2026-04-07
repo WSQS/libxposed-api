@@ -15,6 +15,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven(url = "https://artifactory.appodeal.com/appodeal-public/")
     }
 }
 
@@ -22,3 +23,4 @@ rootProject.name = "libxposed-api"
 
 include(":api", ":checks")
 include(":libxposed_example")
+include(":xposed_example")
